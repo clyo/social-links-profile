@@ -1,0 +1,70 @@
+@font-face {
+        font-family: "inter";
+        src: url(/assets/fonts/static/Inter-Bold.ttf),
+        url(/assets/fonts/static/Inter-SemiBold.ttf),
+        url(/assets/fonts/static/Inter-Bold.ttf);
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+.main {
+    font-family: "inter";
+    font-size: 12px;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+}
+
+.container {
+    height: 450px;
+    color: white;
+    background-color: hsl(0, 0%, 12%);
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+img {
+    height: 85px;
+    width: 85px;
+    border-radius: 75px;
+    margin-top: 20px;
+}
+
+.author {
+    margin-top: 20px;
+    line-height: 1px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    line-height: 1px;
+    font-size: 12px;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 10px;
+    color: (0, 0%, 100%);
+
+}
+
+.socialMedia a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 30px;
+    width: 200px;
+    margin: 5px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    font-size: 12px;
+    text-decoration: none;
+}
